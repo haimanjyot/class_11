@@ -1,12 +1,12 @@
 # Wap to input a number and display the reverse of the number.
 
-num = int(input('Please enter a number to get its reverse --- '))
+num = int(input("Please enter a number to get its reverse --- "))
 
 num = str(num)
 
-if num[0] == '-':
+if num[0] == "-":
     num = num[1::]
-    print(f'-{num[::-1]}')
+    print(f"-{num[::-1]}")
 else:
     print(num[::-1])
 
