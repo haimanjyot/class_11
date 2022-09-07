@@ -32,7 +32,7 @@ factors = [a for a in factors1 if a in factors2]
 
 print(f"The HCF of {num1} and {num2} is {max(factors)}")
 
-# This method only works when both the numbers are positive
+# This method only works when both the numbers are positive:
 
 # if num1 > num2:
 #     while(num1):
