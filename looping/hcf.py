@@ -30,4 +30,17 @@ else:
 
 factors = [a for a in factors1 if a in factors2]
 
-print(f'The HCF of {num1} and {num2} is {max(factors)}')
+print(f"The HCF of {num1} and {num2} is {max(factors)}")
+
+# This method only works when both the numbers are positive
+
+# if num1 > num2:
+#     while(num1):
+#         num2, num1 = num1, num1 % num2
+#     print(f'The HCF is {num2}')
+# elif num2 > num1:
+#     while(num2):
+#         num1, num2 = num2, num2 % num1
+#     print(f'The HCF is {num1}')
+# else:
+#     print(f'The HCF is {num1}')
