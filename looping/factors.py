@@ -1,3 +1,5 @@
+# WAP to input a number and get its factors.
+
 num = int(input('Please enter a number to get its factors --- '))
 
 factors = []
