@@ -5,7 +5,7 @@ sen = input('Please enter a sentence --- ')
 words = sen.split(' ')
 final = 0
 for i in words:
-    if i.isalpha():
+    if i.isalnum():
         final += 1
 
 print(f'There are/is {final} word(s) in the sentence.')
