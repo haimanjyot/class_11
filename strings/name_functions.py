@@ -7,7 +7,7 @@ c) Display the name in Bibliography format (Avasthi, M.L.)
 
 sen = input('Please enter your full name --- ')
 
-words = sen.split(' ')
+words = sen.split()
 
 initials = ''
 for i in words:
